@@ -9,11 +9,11 @@
     display: inline-block; /* Aligns the button horizontally */
     padding: 10px 20px; /* Padding inside the button */
     font-size: 16px; /* Font size of the button text */
-    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from link */    
     background-color: #007bff; /* Button background color */
-    border: none; /* Remove default border */
+    color: #fff; /* Text color */    
     border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* Remove underline from link */
+    border: none; /* Remove default border */    
     transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
