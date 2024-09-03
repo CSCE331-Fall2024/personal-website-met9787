@@ -1,0 +1,22 @@
+/* Style for the back button container */
+.back-button-container {
+    text-align: center; /* Center-align the button container */
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Style for the back button */
+.back-button {
+    display: inline-block; /* Aligns the button horizontally */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
