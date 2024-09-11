@@ -4,8 +4,16 @@ body {
     background-color: #b1dabc;
     color: #2c3e50;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    text-align: center;
-    padding: 0px;
+    /* text-align: center;
+    padding: 0px; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
 }
 
 .photo {
@@ -15,11 +23,11 @@ body {
 }
 
 .container1 {
-    /* position: absolute; */
+    /* position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 1; */
     background-color: #59ad70;
 
     /* max-width: 100%;
@@ -37,13 +45,24 @@ p {
     font-size: 18px;
 }
 
-.nav-links {
+/* .nav-links {
     margin-top: 200px;
     max-width: 30%;
     min-width: 20%;
+} */
+
+.nav-links {
+    background-color: chocolate;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    border: solid;
+    /* border-width: 10; */
+    border-color: black;
+    border-radius: 0px;
 }
 
-.nav-links a {
+/* .nav-links a {
     background-color: #59ad70;
     padding: 10px;
     color: #000000;
@@ -51,31 +70,30 @@ p {
     font-size: 18px;
     text-decoration: none;            
     display: inline-block;
-}
+} */
 
-.nav-links a:hover {
+/* .nav-links a:hover {
     text-decoration: underline;
+} */
+
+/* .back-button-container {
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* Style for the back button container */
-.back-button-container {
-    text-align: center; /* Center-align the button container */
-    margin-top: 20px; /* Space above the button */
-}
 
-/* Style for the back button */
 .back-button {
-    display: inline-block; /* Aligns the button horizontally */
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 16px; /* Font size of the button text */
-    text-decoration: none; /* Remove underline from link */    
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Text color */    
-    border-radius: 5px; /* Rounded corners */
-    border: none; /* Remove default border */    
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;   
+    background-color: #007bff;
+    color: #fff;    
+    border-radius: 5px;
+    border: none;   
+    transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
-    background-color: #0056b3; /* Darker background color on hover */
-}
+    background-color: #0056b3;
+} */
