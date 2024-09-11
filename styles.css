@@ -1,3 +1,62 @@
+
+
+body {
+    background-color: #b1dabc;
+    color: #2c3e50;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    text-align: center;
+    padding: 0px;
+}
+
+.photo {
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.container1 {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #59ad70;
+
+    /* max-width: 100%;
+    padding: 15px;            
+    margin: 0px;
+    border-radius: 20px;
+    background-color: #59ad70; */
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 18px;
+}
+
+.nav-links {
+    margin-top: 200px;
+    max-width: 30%;
+    min-width: 20%;
+}
+
+.nav-links a {
+    background-color: #59ad70;
+    padding: 10px;
+    color: #000000;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;            
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 /* Style for the back button container */
 .back-button-container {
     text-align: center; /* Center-align the button container */
