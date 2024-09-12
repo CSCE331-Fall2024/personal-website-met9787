@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
-    grid-template-rows: 2fr 1fr 9fr;
+    grid-template-rows: 3fr 2fr 1fr 12fr;
     height: 90vh;
 }
 
@@ -65,7 +65,7 @@ p {
 
 .pars {
     margin-top: 20px;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     grid-column: 1 / 5;
 }
 
