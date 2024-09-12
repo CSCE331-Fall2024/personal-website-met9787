@@ -10,7 +10,6 @@ function toggleStyle() {
     }
 }
 
-// Apply the preferred stylesheet on page load
 window.onload = function() {
     const preferredStyle = localStorage.getItem('preferredStyle');
     if (preferredStyle) {
