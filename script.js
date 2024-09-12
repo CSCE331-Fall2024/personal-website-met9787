@@ -1,8 +1,7 @@
 function toggleStyle() {
     const stylesheet = document.getElementById('stylesheet');
-    const currentStyle = stylesheet.getAttribute('href');
-    
-    if (currentStyle === 'styles.css') {
+    const curr = stylesheet.getAttribute('href');
+    if (curr === 'styles.css') {
         stylesheet.setAttribute('href', 'styles2.css');
         localStorage.setItem('preferredStyle', 'styles2.css');
     } else {
