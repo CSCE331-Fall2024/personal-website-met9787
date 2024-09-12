@@ -82,3 +82,7 @@ p {
 .nav-links:hover {
     text-decoration: underline;
 }
+
+.tog {
+    margin-top: 20px;
+}
